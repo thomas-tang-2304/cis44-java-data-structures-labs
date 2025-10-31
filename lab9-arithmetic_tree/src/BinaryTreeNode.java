@@ -61,10 +61,12 @@ public class BinaryTreeNode {
      * This should output Infix notation (you can add parentheses for clarity).
      */
     
-     public void inorder(BinaryTreeNode node, List<BinaryTreeNode> orderList) {
+    public void inorder(BinaryTreeNode node, List<BinaryTreeNode> orderList) {
         if(node == null) return;
+
         
         if(node.left != null) {
+            orderList.add(new BinaryTreeNode("("));
             
             inorder(node.left, orderList);
         }
@@ -72,6 +74,7 @@ public class BinaryTreeNode {
         if(node.right != null) {
             
             inorder(node.right, orderList);
+            orderList.add(new BinaryTreeNode(")"));
         }
 
 
