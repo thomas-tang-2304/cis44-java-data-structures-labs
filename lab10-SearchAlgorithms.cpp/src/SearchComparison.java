@@ -6,7 +6,7 @@ public class SearchComparison {
      * @param arr The array to search (can be unsorted).
      * @param key The value to find.
      * @return The index of the key if found, otherwise -1.
-     */ 
+     */
     public static int linearSearch(int[] arr, int key) {
         // TODO: Implement the iterative linear search algorithm.
         // Loop through the array from index 0 to the end.
