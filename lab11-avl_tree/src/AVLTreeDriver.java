@@ -15,13 +15,13 @@ public class AVLTreeDriver {
         // TODO: Add more insertions to test all 4 rotation cases
 
         // TODO: Print traversals
-        System.out.print("Inorder: ");
+        System.out.println("Inorder: ");
         tree.inorder();
 
-        System.out.print("Preorder: ");
+        System.out.println("Preorder: ");
         tree.preorder();
 
-        System.out.print("Postorder: ");
+        System.out.println("Postorder: ");
         tree.postorder();
 
         // TODO: Add expected results as comments for verification
